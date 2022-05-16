@@ -1,0 +1,25 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\Documents\\Développement\\Cours react\\Cours p1\\cours-react-1"
+		},
+		{
+			"path": "..\\..\\Documents\\Développement\\Cours react\\cours react terminé"
+		},
+		{
+			"path": "..\\..\\Documents\\Développement\\Github"
+		},
+		{
+			"path": "..\\..\\Documents\\Développement\\Cours JS\\TP9 API\\correction"
+		},
+		{
+			"path": "..\\..\\Documents\\Développement\\Cours JS\\TP 8"
+		},
+		{
+			"path": "..\\..\\Documents\\Développement\\Cours JS\\p4 api"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "p4 api"
+	}
+}
