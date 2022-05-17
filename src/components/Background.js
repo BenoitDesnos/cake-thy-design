@@ -5,7 +5,7 @@ const Background = () => {
   const [top, setTop] = useState(); */
 
   useEffect(() => {
-    const nbrOfDots = 100;
+    const nbrOfDots = 20;
 
     const dots = document.querySelector(".dots");
 
@@ -23,10 +23,10 @@ const Background = () => {
       dotControl.forEach((dot) => {
         dot.style.transform = `translate(${
           (e.x - (parseInt(dot.style.left) / 100) * window.innerWidth) *
-          (3 / 100)
+          (1 / 100)
         }px, ${
           (e.y - (parseInt(dot.style.top) / 100) * window.innerHeight) *
-          (3 / 100)
+          (1 / 100)
         }px)`;
       });
     });
