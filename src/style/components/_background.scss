@@ -1,0 +1,17 @@
+.dots {
+    position: fixed;
+    width: 120%;
+    height: 120%;
+
+
+    .dot {
+        position: absolute;
+        width: 7px;
+        height: 7px;
+        background-color: rgba(213, 155, 236, 0.781);
+        border-radius: 10000px;
+        top: 100px;
+        left: 100px;
+
+    }
+}

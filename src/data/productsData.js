@@ -6,7 +6,7 @@ export const productsData = [
     languages: ["Citron", "Farine", "Beurre"],
     infos:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas cumque labore suscipit, pariatur laboriosam autem omnis saepe quisquam enim iste.",
-    img: "./assets/img/projet-2.jpg",
+    img: "./assets/img/gateau-irlande.png",
     link: "http://www.google.com",
   },
   {
@@ -16,7 +16,7 @@ export const productsData = [
     languages: ["Symfony", "Vue"],
     infos:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas cumque labore suscipit, pariatur laboriosam autem omnis saepe quisquam enim iste.",
-    img: "./assets/img/projet-1.jpg",
+    img: "./assets/img/buche.png",
     link: "http://www.google.com",
   },
   {

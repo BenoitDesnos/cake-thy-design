@@ -5,6 +5,7 @@ import Mouse from "../components/Mouse";
 import Navigation from "../components/Navigation";
 import SocialNetwork from "../components/SocialNetwork";
 import { motion } from "framer-motion";
+import Background from "../components/Background";
 
 const Home = () => {
   const variants = {
@@ -26,6 +27,7 @@ const Home = () => {
 
   return (
     <div>
+      <Background />
       <motion.div
         className="home"
         initial="initial"

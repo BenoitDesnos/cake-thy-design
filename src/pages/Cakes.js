@@ -1,4 +1,5 @@
 import React from "react";
+import Background from "../components/Background";
 import Button from "../components/Button";
 import Logo from "../components/Logo";
 import Mouse from "../components/Mouse";
@@ -8,6 +9,7 @@ import Products from "../components/Products";
 const Cakes = () => {
   return (
     <main>
+      <Background />
       <Mouse />
       <div className="project">
         <Navigation />

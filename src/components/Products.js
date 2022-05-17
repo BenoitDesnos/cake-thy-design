@@ -7,12 +7,16 @@ const Products = ({ productNumber }) => {
   const [left, setLeft] = useState();
   const [top, setTop] = useState();
   const [size, setSize] = useState();
-  const [plusMinus, setPlusMinus] = useState();
+
   useEffect(() => {
-    setLeft(Math.floor(Math.random() * 200 + 700) + "px");
     setTop(Math.floor(Math.random() * 200 + 150) + "px");
+    if (window.innerWidth < 900) {
+      setLeft(Math.floor(Math.random() * 200 + 400) + "px");
+      console.log("test");
+    } else {
+      setLeft(Math.floor(Math.random() * 200 + 500) + "px");
+    }
     setSize("scale(" + (Math.random() + 0.7) + ")");
-    setPlusMinus(Math.random() > 0.4 ? 1 : -1);
   }, []);
 
   const variants = {
