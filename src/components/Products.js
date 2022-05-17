@@ -65,7 +65,7 @@ const Products = ({ productNumber }) => {
     >
       <div className="project-content">
         <h1>{currentProduct.title}</h1>
-        <p>{currentProduct.date}</p>
+        <p></p>
       </div>
       <motion.div
         initial="initial"
