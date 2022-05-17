@@ -6,8 +6,8 @@
     display: flex;
     width: 300px;
     text-align: left;
-    animation: color 30s alternate infinite;
-    perspective: 200px;
+    animation: color 20s alternate infinite;
+
     transform: translateX(26px);
   }
 
@@ -17,23 +17,27 @@
 
   @keyframes color {
     0% {
-      color: blue;
+      color: $color-2;
     }
 
     50% {
-      color: #ec006e;
+      color: rgb(158, 241, 158);
     }
 
     100% {
-      color: blue;
+      color: $color-2;
     }
   }
 
-  .letter {
+  /*  .letter {
     transform: translateZ(200px);
-  }
+  } */
 
   @keyframes anim {
+    0% {
+      transform: translateZ(200px);
+    }
+
     25% {
       transform: translateZ(0px);
       opacity: 1;
@@ -50,7 +54,7 @@
 
     100% {
 
-      transform: translateZ(-280px) translateX(200px);
+      transform: translateZ(-200px) translateX(200px);
     }
   }
 }

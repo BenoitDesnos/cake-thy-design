@@ -4,8 +4,7 @@ export const productsData = [
     title: "Gateaux",
     date: "Janvier 2020",
     languages: ["Citron", "Farine", "Beurre"],
-    infos:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas cumque labore suscipit, pariatur laboriosam autem omnis saepe quisquam enim iste.",
+    infos: "Venez découvrir mes créations ainsi que mes tarifs !",
     img: "./assets/img/gateau-irlande.png",
     link: "http://www.google.com",
   },
@@ -14,8 +13,7 @@ export const productsData = [
     title: "Bûches",
     date: "Mars 2020",
     languages: ["Symfony", "Vue"],
-    infos:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas cumque labore suscipit, pariatur laboriosam autem omnis saepe quisquam enim iste.",
+    infos: "Venez découvrir mes créations ainsi que mes tarifs !",
     img: "./assets/img/buche.png",
     link: "http://www.google.com",
   },

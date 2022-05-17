@@ -13,7 +13,7 @@ const Navigation = () => {
         </NavLink>
 
         <li className="nav-products">
-          nos produits
+          mes produits
           <ul className="nav-products-ul">
             <NavLink
               to="/gateaux"
@@ -27,7 +27,7 @@ const Navigation = () => {
             >
               <li>bûches</li>
             </NavLink>
-            <NavLink
+            {/* <NavLink
               to="/cupcakes"
               className={(nav) => (nav.isActive ? "nav-active hover" : "hover")}
             >
@@ -38,7 +38,7 @@ const Navigation = () => {
               className={(nav) => (nav.isActive ? "nav-active hover" : "hover")}
             >
               <li>patisseries</li>
-            </NavLink>
+            </NavLink> */}
           </ul>
         </li>
 

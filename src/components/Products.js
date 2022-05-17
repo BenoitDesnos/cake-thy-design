@@ -66,11 +66,6 @@ const Products = ({ productNumber }) => {
       <div className="project-content">
         <h1>{currentProduct.title}</h1>
         <p>{currentProduct.date}</p>
-        <ul className="languages">
-          {currentProduct.languages.map((item) => {
-            return <li key={item}>{item}</li>;
-          })}
-        </ul>
       </div>
       <motion.div
         initial="initial"

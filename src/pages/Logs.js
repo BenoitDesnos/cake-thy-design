@@ -1,5 +1,5 @@
 import React from "react";
-
+import Background from "../components/Background";
 import Button from "../components/Button";
 import Logo from "../components/Logo";
 import Mouse from "../components/Mouse";
@@ -9,12 +9,13 @@ import Products from "../components/Products";
 const Buches = () => {
   return (
     <main>
-      <Mouse />
+      {/* <Mouse /> */}
+      <Background />
       <div className="project">
         <Navigation />
         <Logo />
         <Products productNumber={1} />
-        <Button left={"/gateaux"} right={"/cupcakes"} />
+        <Button left={"/gateaux"} right={"/contact"} />
       </div>
     </main>
   );

@@ -41,11 +41,14 @@
 
   ul:hover li:not(:hover) {
     opacity: .5;
+
   }
 
   ul:hover li:hover {
     color: $black;
   }
+
+
 
   .nav-products {
     cursor: pointer;
@@ -59,8 +62,10 @@
       visibility: visible;
       opacity: 1;
 
+
       li {
-        transform: rotatey(0deg)
+        transform: rotatey(0deg);
+
       }
     }
 
@@ -68,11 +73,15 @@
       position: absolute;
       visibility: hidden;
       opacity: 0;
-      padding: 0 40px;
-      width: 300px;
+      margin: 0 40px;
+      padding: 0 10px;
+
       transform: translateX(100px);
       transition: .3s;
       perspective: 500px;
+      background-color: $color-3;
+      width: auto;
+      border-radius: 20px;
 
       li {
         transform: rotatey(30deg) scaleX(1.2);

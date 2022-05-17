@@ -78,7 +78,7 @@ const Contact = () => {
           <SocialNetwork />
           <div className="credits"></div>
         </div>
-        <Button left={"/patisseries"} />
+        <Button left={"/buches"} />
       </motion.div>
     </main>
   );

@@ -7,11 +7,15 @@
   transform: translate(-50%, -50%);
   pointer-events: none;
   transition: 200ms ease-out;
-  z-index: 3;
-  backdrop-filter: hue-rotate(300deg);
+  z-index: 2;
+  backdrop-filter: brightness(115%);
 
   &.hovered {
     width: 30px;
     height: 30px;
+  }
+
+  @media screen and (max-width: 650px) {
+    display: none;
   }
 }
