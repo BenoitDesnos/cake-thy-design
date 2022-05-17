@@ -27,7 +27,7 @@ const Home = () => {
 
   return (
     <div>
-      <Background />
+      {/* <Background /> */}
       <motion.div
         className="home"
         initial="initial"

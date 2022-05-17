@@ -6,9 +6,9 @@
   position: absolute;
   transform: translate(-50%, -50%);
   pointer-events: none;
-
-  z-index: 2;
-  backdrop-filter: brightness(115%);
+  transition: 200ms ease-out;
+  z-index: 3;
+  backdrop-filter: hue-rotate(300deg);
 
   &.hovered {
     width: 30px;

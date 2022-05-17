@@ -6,12 +6,13 @@
 
     .dot {
         position: absolute;
-        width: 7px;
-        height: 7px;
-        background-color: rgba(213, 155, 236, 0.781);
-        border-radius: 10000px;
-        top: 100px;
-        left: 100px;
+        width: 50px;
+        height: 50px;
+
+        background-image: url(../../../public/assets/img/cloud.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+
 
     }
 }

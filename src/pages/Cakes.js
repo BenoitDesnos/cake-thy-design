@@ -9,8 +9,8 @@ import Products from "../components/Products";
 const Cakes = () => {
   return (
     <main>
-      {/* <Background /> */}
-      <Mouse />
+      <Background />
+      {/* <Mouse /> */}
       <div className="project">
         <Navigation />
         <Logo />
